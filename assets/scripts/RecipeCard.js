@@ -149,4 +149,4 @@ class RecipeCard extends HTMLElement {
 
 // A8. TODO - Define the Class as a customElement so that you can create
 //           'recipe-card' elements
-let recipeCard = document.createElement('recipe-card');
+customElements.define('recipe-card', RecipeCard);
